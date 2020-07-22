@@ -1,12 +1,19 @@
-README: React Frontend
-======================
+# React-Evernote
+* github
+```shell
+frontend : https://github.com/thechanmoon/react-evernote-frontend.git
 
-## Setup
-
-```sh
-# from within this directory:
+backend : https://github.com/thechanmoon/react-evernote-api.git
+```
+* Install
+```shell
 npm install
-PORT=4000 npm start
 ```
 
-This React app will be running on `http://localhost:4000`.
+* Run
+```shell
+npm start
+```
+
+* Deployment
+Project is deployed in Heroku http://react-evernote.herokuapp.com/
