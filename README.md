@@ -5,14 +5,25 @@ frontend : https://github.com/thechanmoon/react-evernote-frontend.git
 
 backend : https://github.com/thechanmoon/react-evernote-api.git
 ```
-* Install
+* Frontend Install
 ```shell
 npm install
 ```
 
-* Run
+* Frontend Run
 ```shell
 npm start
+```
+
+* Backend Install
+```shell
+bundle install
+rails db:create db:migrate db:seed
+```
+
+* Backend Run
+```shell
+rails s
 ```
 
 * Deployment
