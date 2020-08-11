@@ -1,30 +1,35 @@
 # React-Evernote
-* github
+### github
 ```shell
 frontend : https://github.com/thechanmoon/react-evernote-frontend.git
 
 backend : https://github.com/thechanmoon/react-evernote-api.git
 ```
-* Frontend Install
+
+### Frontend
+* Install
 ```shell
 npm install
 ```
 
-* Frontend Run
+* Run
 ```shell
 npm start
 ```
-
-* Backend Install
+### Backend
+* Install
 ```shell
 bundle install
 rails db:create db:migrate db:seed
 ```
 
-* Backend Run
+* Run
 ```shell
 rails s
 ```
+### Built With
+- Ruby on Rails
+- React
 
-* Deployment
+### Deployment
 Project is deployed in Heroku http://react-evernote.herokuapp.com/
